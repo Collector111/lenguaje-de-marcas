@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <agenda>
-<!--Vamos a crear un coctacto-->
-<contacto>
-<nombre> AlumnoLM</nombre>
-<ciudad cp="29000">Málaga</ciudad>
-<telefono n="666777888"/>
-<email>666777888@prueba.com</email>
-<casado v="no"/>
-</contacto>
+    <!--Vamos a crear un coctacto-->
+    <contacto>
+        <nombre> AlumnoLM</nombre>
+        <ciudad cp="29000">Málaga</ciudad>
+        <telefono n="666777888" />
+        <email>666777888@prueba.com</email>
+        <casado v="no" />
+    </contacto>
 </agenda>
