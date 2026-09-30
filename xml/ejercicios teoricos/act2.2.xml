@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animal>
+    <mamifero>
+        <especie>lobo</especie>
+        <raza>lobo rojo</raza>
+        <sexo>macho</sexo>
+    </mamifero>
+</animal>
