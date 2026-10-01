@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<examenes
+    <materia>
+        <nombre></nombre>
+        <aprobados></aprobados>
+        <suspendidos></suspendidos>
+        <unidades></unidades>
+    </materia>
+    <materia>
+        <nombre></nombre>
+        <aprobado></aprobados>
+        <suspendido></suspendidos>
+        <unidade></unidades>
+    </materia>
+</examenes>
