@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+    <libro>
+        <título>
+            Lenguaje de marcas
+        </título>
+        <autor>
+            Autor 1
+        </autor>
+    </libro>
+    <libro>
+        <título>
+            El imperio final
+        </título>
+        <autor>
+            Brandon Sanderson
+        </autor>
+    </libro>
+</biblioteca>

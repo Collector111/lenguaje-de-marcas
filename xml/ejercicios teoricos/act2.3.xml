@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <padre>
     <hijo>
-        <nombre></nombre>
+        <nombre>alumno 1</nombre>
+        <apellidos>ap1 ap2</apellidos>
+    </hijo>
+    <hijo>
+        <nombres>alumno 2</nombres>
+        <apellidos>ap11 ap21</apellidos>
     </hijo>
 </padre>
