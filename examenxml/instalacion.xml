@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instalacion fecha="2026-05-07">
+    <cliente>Las carmelistas S.L</cliente>
+    <direccion>Calle cristo 14, Malaga</direccion>
+    <equipo>
+        <tipo>Servidor</tipo>
+        <marca>IBM</marca>
+    </equipo>
+    <tecnico nombre="Recadero" apellidos="pascual"/>
+    <resultado instalacion=""/>
+</instalacion>
