@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+    <title>Hoja de ejercicios 3</title>
+</head>
+<body>
+    <h1 align="center">Tipos de formularios</h1>
+    <p>Este Formlario tiene como objetivo la practica de los formularios</p>
+    <p>
+        <form action="/nombrar">
+            Introduzca su nombre:
+            <br>
+            <input type="text" name="nombre">
+            <br>
+            Introduzca la contraseña:
+            <br>
+            <input type="password" name="contrasena">
+            <br>
+            Seleccione su curso:
+            <br>
+            <select id="curso" name="curso">
+                <option value="1">Primero</option>
+                <option value="2">Segundo</option>
+            </select>
+            <br>
+            Cual de estas asignatura tienes?
+            <br>
+            <label><input type="checkbox" name="asignaturas" value="LND">LND</label>
+            <label><input type="checkbox" name="asignaturas" value="PRO">PRO</label>
+            <label><input type="checkbox" name="asignaturas" value="BAE">BAE</label>
+            <br>
+            Como esta siendo el nivel de senseñanza?
+            <br>
+            <label><input type="radio" name="asignaturas" value="Bajo">Bajo</label>
+            <label><input type="radio" name="asignaturas" value="Medio">Medio</label>
+            <label><input type="radio" name="asignaturas" value="Alto">Alto</label>
+            <br>
+            Sube tu archivo mas reciente del curso
+            <input type="file" name="archivo">
+            <br>
+            Introduce la fecha de hoy:
+            <br>
+            <input type="date" name="fecha de hoy">
+            <br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+        </form>
+    </p>
+</body>
+</html>
