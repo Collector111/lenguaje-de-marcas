@@ -1,6 +1,6 @@
 .cuerpo{
     background-color: #A442FA;
-    
+    text-align: center;
 }
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -15,6 +15,7 @@ p u{
 
 li{
     text-decoration: underline;
+    text-align: left;
 }
 
 p,i{
