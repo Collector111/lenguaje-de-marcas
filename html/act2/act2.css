@@ -1,0 +1,22 @@
+.cuerpo{
+    background-color: #A442FA;
+    
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p u{
+    color: burlywood;
+}
+
+#importante{
+    color: brown;
+}
+
+li{
+    text-decoration: underline;
+}
+
+p,i{
+    color: aquamarine;
+}
