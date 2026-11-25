@@ -6,8 +6,25 @@ body{
     background-color: #07478F;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+    text-align: center;
 }
 
-h3{
-    color: cadetblue;
+#why{
+    margin-left: 25%;
+    background-color: rgb(13, 188, 80);
+    width: 50%;
+    border-radius: 50px;
+    box-shadow: 50px 50px 50px black;
+}
+
+ul{
+    text-align: left;
+}
+#pie{
+    text-align: right;
+}
+table{
+    width: 100%;
+    height: 100%;
+    box-shadow: 50px 50px 50px black;
 }
