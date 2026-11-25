@@ -28,3 +28,15 @@ table{
     height: 100%;
     box-shadow: 50px 50px 50px black;
 }
+
+button{
+    border-radius: 50px;
+    background-color: rgb(118, 179, 6);
+}
+
+a{
+    transition: color 0.25s ease, transform 0.15s ease;
+}
+a:hover {
+  color: #ec0c0c;
+}
