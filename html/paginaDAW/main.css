@@ -1,6 +1,16 @@
 img{
     width: 60%;
 }
+img:hover{
+    animation-name: flotar;
+  animation-duration: 2.4s;
+  animation-timing-function: ease-in-out; /* linear | ease | ease-in | ease-out | ease-in-out | cubic-bezier(...) | steps(...) */
+  animation-delay: 0.2s;                  /* admite valores negativos, ej: -1s para empezar ya avanzada */
+  animation-iteration-count: infinite;    /* número (ej: 3) o infinite */
+  animation-direction: alternate;         /* normal | reverse | alternate | alternate-reverse */
+  animation-fill-mode: both;              /* none | forwards | backwards | both */
+  animation-play-state: running;
+}
 
 body{
     background-color: #07478F;
@@ -35,8 +45,53 @@ button{
 }
 
 a{
-    transition: color 0.25s ease, transform 0.15s ease;
+    text-decoration: none;
 }
-a:hover {
-  color: #ec0c0c;
+
+
+@keyframes deslizar {
+    from{transform: translateX(0);background-color: #07478F;}
+    to{transform: rotateX('angle'); background-color: #0cec8b;}
 }
+@keyframes flotar {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+    opacity: 0.85;
+  }
+  50% {
+    transform: translateY(-12px) rotate(2deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0px) rotate(0deg);
+    opacity: 0.85;
+  }
+}
+
+details{
+    animation-name: deslizar;
+    animation-duration: 2s;
+animation-timing-function: ease-in-out;
+animation-delay: 1s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-fill-mode: forwards;
+animation-play-state: running;
+border-radius: 40px;
+margin-left: 30%;
+margin-right: 30%;
+}
+
+header{
+    background-color: antiquewhite;
+    border-radius: 30px;
+}
+
+button:hover {
+  background-color: rgba(250, 0, 0, 0.911);
+  border-color: #38bdf8;
+  color: #38bdf8;
+  transform: translateY(-2px);
+  
+}
+
